@@ -1,0 +1,5 @@
+# Large local data files excluded from GitHub upload
+thought to be good - not sure/**
+other/Mega-record-files-mixed-and-their-analyze/*.json
+other/Mega-record-files-mixed-and-their-analyze/*.jsonl
+other/Mega-record-files-mixed-and-their-analyze/*.zip
