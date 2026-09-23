@@ -1,0 +1,121 @@
+Folder PATH listing
+Volume serial number is 8E77-CFD1
+C:.
+│   320.vendors.cca9b16e97778e82aac7.js
+│   378.chunk.349d16c9bdd4ced95453.js
+│   542.vendors.abe0e64e95582406fe38.js
+│   api.js
+│   moumi_com_cookies.txt
+│   moumi_com_local_storage.txt
+│   landing-page-story.d181cc468b761783efb9.js
+│   sentry.99e4a277bdf435bc60ca.js
+│   serviceworker.js
+│   tree_bad.txt
+│   
+├───moumi.com
+│   │   landing.html
+│   │   mwebapi-d188a11e2fc82.phtml
+│   │   mwebapi.phtml
+│   │   
+│   ├───moumi-brand-assets
+│   │   └───_next
+│   │       └───static
+│   │           ├───chunks
+│   │           │       44381400bf7ef9a1.js
+│   │           │       565eb6a9ad848cef.js
+│   │           │       5d42178a5d644116.js
+│   │           │       b2ecac37c92f5d8d.js
+│   │           │       c2771063f442b557.js
+│   │           │       d0abebeee98f9b8d.js
+│   │           │       ef4c9ea8642b5cab.js
+│   │           │       
+│   │           ├───css
+│   │           │       99aa9aa1bbb5f29b.css
+│   │           │       
+│   │           └───pYXthk8mSR_LEeubeRQSU
+│   │                   _buildManifest.js
+│   │                   _ssgManifest.js
+│   │                   
+│   ├───moumi-homepage
+│   │   └───assets
+│   │       │   tell-us-what-you-looking-for-bg.png
+│   │       │   
+│   │       └───fonts
+│   │           └───beausite-classic
+│   │                   beausite-classic.css
+│   │                   BeausiteClassicWeb-Bold.woff2
+│   │                   BeausiteClassicWeb-Semibold.woff2
+│   │                   
+│   ├───js
+│   │   └───worker
+│   │           serviceworker.js
+│   │           
+│   ├───static
+│   │       favicon.ico
+│   │       
+│   └───_next
+│           image-8f74952498b95.html
+│           image-e961950cbe643.html
+│           image-f4595220014f.html
+│           image.html
+│           
+├───consent.moumi.com
+│   └───unified
+│           wrapperMessagingWithoutDetection.js
+│           
+├───eu1.moumi.com
+│   └───hotpanel
+│           hotpanel2.phtml
+│           
+├───eu1.ecdn2.moumicdn.com
+│   └───i
+│       └───v2
+│           └───-
+│               └───mobileweb
+│                   └───webdist
+│                       └───js
+│                           └───es5
+│                                   external-startup.800c62738a934a2ed7f8.js
+│                                   
+├───o1118521.ingest.us.sentry.io
+│   └───api
+│       └───4507775599378432
+│           └───envelope
+│                   index.html
+│                   
+├───www.googletagmanager.com
+│       gtm.js
+│       
+└───_DataURI
+        data.006257371e00e.txt
+        data.03043806cecc9.txt
+        data.164a3bfb70124.txt
+        data.16df48b94f94f.txt
+        data.17de52b54edfc.txt
+        data.1feb0d026253.txt
+        data.265fccfe7f047.txt
+        data.5b332012b06b1.txt
+        data.5f87d4c1621e4.txt
+        data.64387b710b92d.txt
+        data.8d66d82bdbc39.txt
+        data.8ecb4ec639e1.txt
+        data.98e92294cba59.txt
+        data.9c8b0fc53fc6b.txt
+        data.a60b411d88c1a.txt
+        data.b0c16723855e2.txt
+        data.b2501c7ea9ab8.txt
+        data.b58465682019d.txt
+        data.b700e38967a1e.txt
+        data.b787ed98a94c.txt
+        data.bbffbe334bb1d.txt
+        data.c3a9832da6735.txt
+        data.c5eb6d972163b.txt
+        data.cf233eddf98a.txt
+        data.d1ebff558c0bc.txt
+        data.d9082dcfd8281.txt
+        data.e2aa5ba4e4239.txt
+        data.f1c718507605f.txt
+        data.f371d118e504c.txt
+        data.fae210806d1db.txt
+        data.fd784458696db.txt
+        

@@ -1,0 +1,510 @@
+[03:47:38][IDENTITY] Loaded: device_id=853d19c2... seed=748956293
+[03:47:38][INIT] ============================================================
+[03:47:38][INIT]   SHIELD v4 -- CDP Edition (no proxy, no TLS fingerprint)
+[03:47:38][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[03:47:38][INIT]   cloak_seed = 748956293
+[03:47:38][INIT] ============================================================
+[03:47:38][INIT] Connecting to Chromium at http://localhost:9222...
+[03:47:39][INIT] Connected!
+[03:47:39][LIVE] Interception active on 1 page(s). Monitoring Badoo traffic...
+[03:48:05][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+    - sec-ch-ua: "Chromium";v="145", "Not:A-Brand";v="99"
+    - sec-ch-ua-mobile: ?0
+    - sec-ch-ua-platform: "Windows"
+ -- https://badoo.com/
+[03:48:09][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:48:39][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:49:09][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:50:13][IDENTITY] Loaded: device_id=853d19c2... seed=748956293
+[03:50:13][INIT] ============================================================
+[03:50:13][INIT]   SHIELD v4 -- CDP Edition (no proxy, no TLS fingerprint)
+[03:50:13][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[03:50:13][INIT]   cloak_seed = 748956293
+[03:50:13][INIT] ============================================================
+[03:50:14][INIT] Connecting to Chromium at http://localhost:9222...
+[03:50:14][INIT] Connected!
+[03:50:14][LIVE] Interception active on 1 page(s). Monitoring Badoo traffic...
+[03:50:40][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+    - sec-ch-ua: "Chromium";v="145", "Not:A-Brand";v="99"
+    - sec-ch-ua-mobile: ?0
+    - sec-ch-ua-platform: "Windows"
+ -- https://badoo.com/
+[03:50:44][LIVE] Pages: 2 | Phase: pre | phone=False photo=False
+[03:51:03][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+    - sec-ch-ua: "Chromium";v="145", "Not:A-Brand";v="99"
+    - sec-ch-ua-mobile: ?0
+    - sec-ch-ua-platform: "Windows"
+ -- https://badoo.com/
+[03:51:11][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET http://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+  - ← 302 Moved Temporarily
+    - server: nginx
+    - date: Wed, 29 Apr 2026 01:50:53 GMT
+    - content-type: text/html
+    - content-length: 138
+    - connection: keep-alive
+    - keep-alive: timeout=60
+    - location: https://badoo.com/
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+ -- http://badoo.com/
+[03:51:14][LIVE] Pages: 2 | Phase: pre | phone=False photo=False
+[03:51:34][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+    - sec-ch-ua: "Chromium";v="145", "Not:A-Brand";v="99"
+    - sec-ch-ua-mobile: ?0
+    - sec-ch-ua-platform: "Windows"
+ -- https://badoo.com/
+[03:51:44][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:51:55][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+    - sec-ch-ua: "Chromium";v="145", "Not:A-Brand";v="99"
+    - sec-ch-ua-mobile: ?0
+    - sec-ch-ua-platform: "Windows"
+ -- https://badoo.com/
+[03:51:57][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+    - sec-ch-ua: "Chromium";v="145", "Not:A-Brand";v="99"
+    - sec-ch-ua-mobile: ?0
+    - sec-ch-ua-platform: "Windows"
+ -- https://badoo.com/
+[03:52:14][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:52:44][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:53:03][ERR] fetch error: Route.fetch: read ECONNRESET
+Call log:
+  - → GET https://badoo.com/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    - accept-encoding: gzip,deflate,br
+    - accept-language: en-US,en;q=0.9
+    - upgrade-insecure-requests: 1
+    - sec-ch-ua: "Chromium";v="145", "Not:A-Brand";v="99"
+    - sec-ch-ua-mobile: ?0
+    - sec-ch-ua-platform: "Windows"
+ -- https://badoo.com/
+[03:53:14][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:53:44][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:54:14][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:54:44][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:55:03][IDENTITY] Loaded: device_id=853d19c2... seed=748956293
+[03:55:03][INIT] ============================================================
+[03:55:03][INIT]   SHIELD v4 -- CDP Edition (no proxy, no TLS fingerprint)
+[03:55:03][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[03:55:03][INIT]   cloak_seed = 748956293
+[03:55:03][INIT] ============================================================
+[03:55:03][INIT] Connecting to Chromium at http://localhost:9222...
+[03:55:04][INIT] Connected!
+[03:55:04][LIVE] Interception active on 3 page(s). Monitoring Badoo traffic...
+[03:55:34][LIVE] Pages: 3 | Phase: pre | phone=False photo=False
+[03:56:48][IDENTITY] Loaded: device_id=853d19c2... seed=748956293
+[03:56:48][INIT] ============================================================
+[03:56:48][INIT]   SHIELD v4 -- CDP Edition (no proxy, no TLS fingerprint)
+[03:56:48][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[03:56:48][INIT]   cloak_seed = 748956293
+[03:56:48][INIT] ============================================================
+[03:56:48][INIT] Connecting to Chromium at http://localhost:9222...
+[03:56:48][INIT] Connected!
+[03:56:48][LIVE] Interception active on 1 page(s). Monitoring Badoo traffic...
+[03:57:18][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:57:48][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:58:18][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:58:48][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:59:18][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[03:59:48][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:00:19][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:00:49][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:01:19][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:02:04][IDENTITY] Loaded: device_id=853d19c2... seed=748956293
+[04:02:04][INIT] ============================================================
+[04:02:04][INIT]   SHIELD v4 -- CDP Edition (no proxy, no TLS fingerprint)
+[04:02:04][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[04:02:04][INIT]   cloak_seed = 748956293
+[04:02:04][INIT] ============================================================
+[04:02:04][INIT] Connecting to Chromium at http://localhost:9222...
+[04:02:05][INIT] Connected!
+[04:02:05][LIVE] Interception active on 1 page(s). Monitoring Badoo traffic...
+[04:02:35][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:03:05][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:03:35][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:04:05][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:04:35][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:05:05][LIVE] Pages: 1 | Phase: pre | phone=False photo=False
+[04:05:35][LIVE] Pages: 0 | Phase: pre | phone=False photo=False
+[04:06:05][LIVE] Pages: 0 | Phase: pre | phone=False photo=False
+[04:06:35][LIVE] Pages: 0 | Phase: pre | phone=False photo=False
+[04:07:05][LIVE] Pages: 0 | Phase: pre | phone=False photo=False
+[04:07:35][LIVE] Pages: 0 | Phase: pre | phone=False photo=False
+[04:08:10][IDENTITY] Loaded: device_id=853d19c2... seed=748956293
+[04:08:10][INIT] ============================================================
+[04:08:10][INIT]   SHIELD v4 -- CDP Edition (no proxy, native Chrome TLS)
+[04:08:10][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[04:08:10][INIT]   cloak_seed = 748956293
+[04:08:10][INIT] ============================================================
+[04:08:10][INIT] Connecting to Chromium at http://localhost:9222...
+[04:08:10][INIT] Connected!
+[04:08:10][INIT] Attaching CDP Fetch session to: chrome-error://chromewebdata/
+[04:08:10][LIVE] CDP Fetch interception active. Phase: pre | Monitoring...
+[04:08:40][LIVE] Phase: pre | phone=False photo=False
+[04:09:10][LIVE] Phase: pre | phone=False photo=False
+[04:09:40][LIVE] Phase: pre | phone=False photo=False
+[04:10:10][LIVE] Phase: pre | phone=False photo=False
+[04:10:40][LIVE] Phase: pre | phone=False photo=False
+[04:11:10][LIVE] Phase: pre | phone=False photo=False
+[04:11:40][LIVE] Phase: pre | phone=False photo=False
+[04:12:10][LIVE] Phase: pre | phone=False photo=False
+[04:12:40][LIVE] Phase: pre | phone=False photo=False
+[04:13:10][LIVE] Phase: pre | phone=False photo=False
+[04:13:40][LIVE] Phase: pre | phone=False photo=False
+[04:14:56][IDENTITY] device_id=853d19c2... seed=748956293
+[04:14:56][INIT] ============================================================
+[04:14:56][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[04:14:56][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[04:14:56][INIT]   cloak_seed = 748956293
+[04:14:56][INIT] ============================================================
+[04:14:58][INIT] Page: https://badoo.com/
+[04:14:58][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/13556CB64C0C60FB8CA4BD205669DFE7
+[04:15:00][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[04:15:30][LIVE] Phase: pre | phone=False photo=False
+[04:16:58][IDENTITY] device_id=853d19c2... seed=748956293
+[04:16:58][INIT] ============================================================
+[04:16:58][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[04:16:58][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[04:16:58][INIT]   cloak_seed = 748956293
+[04:16:58][INIT] ============================================================
+[04:17:00][INIT] Page: https://badoo.com/
+[04:17:00][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/98B2975DC936A93EE6FAF387782811A7
+[04:17:02][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[04:17:47][LIVE] Phase: pre | phone=False photo=False
+[04:39:10][IDENTITY] device_id=853d19c2... seed=748956293
+[04:39:10][INIT] ============================================================
+[04:39:10][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[04:39:10][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[04:39:10][INIT]   cloak_seed = 748956293
+[04:39:10][INIT] ============================================================
+[04:39:12][INIT] Page: https://badoo.com/
+[04:39:12][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/0D9A168A1E8CF43940C8CA714E011092
+[04:39:14][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[04:39:29][SILENT] www.googletagmanager.com/gtag/destination
+[04:39:29][SILENT] o1118521.ingest.us.sentry.io/api/4507775599378432/envelope/
+[04:39:29][SILENT] www.googletagmanager.com/gtm.js
+[04:39:29][COOKIE] device_id patched
+[04:39:30][COOKIE] device_id patched
+[04:39:54][LIVE] Phase: pre | phone=False photo=False
+[04:39:59][COOKIE] device_id patched
+[04:40:10][SILENT] www.googletagmanager.com/gtm.js
+[04:40:10][COOKIE] device_id patched
+[04:40:10][COOKIE] device_id patched
+[04:40:10][COOKIE] device_id patched
+[04:40:10][COOKIE] device_id patched
+[04:40:28][LIVE] Phase: pre | phone=False photo=False
+[04:40:30][SILENT] www.googletagmanager.com/gtm.js
+[04:40:30][COOKIE] device_id patched
+[04:41:09][LIVE] Phase: pre | phone=False photo=False
+[04:41:09][COOKIE] device_id patched
+[04:41:37][SILENT] www.googletagmanager.com/gtm.js
+[04:41:37][COOKIE] device_id patched
+[04:41:37][COOKIE] device_id patched
+[04:41:37][COOKIE] device_id patched
+[04:41:37][COOKIE] device_id patched
+[04:42:09][LIVE] Phase: pre | phone=False photo=False
+[04:43:28][LIVE] Phase: pre | phone=False photo=False
+[04:43:28][COOKIE] device_id patched
+[04:43:29][SILENT] www.googletagmanager.com/gtm.js
+[04:43:29][COOKIE] device_id patched
+[04:43:29][COOKIE] device_id patched
+[04:44:07][LIVE] Phase: pre | phone=False photo=False
+[04:44:07][COOKIE] device_id patched
+[04:46:45][LIVE] Phase: pre | phone=False photo=False
+[04:46:45][SILENT] www.googletagmanager.com/gtm.js
+[04:46:45][COOKIE] device_id patched
+[04:46:45][COOKIE] device_id patched
+[04:47:24][LIVE] Phase: pre | phone=False photo=False
+[04:47:24][COOKIE] device_id patched
+[04:48:28][LIVE] Phase: pre | phone=False photo=False
+[04:48:29][SILENT] www.googletagmanager.com/gtm.js
+[04:48:29][COOKIE] device_id patched
+[04:48:29][COOKIE] device_id patched
+[04:49:07][LIVE] Phase: pre | phone=False photo=False
+[04:49:07][COOKIE] device_id patched
+[04:49:42][IDENTITY] device_id=853d19c2... seed=748956293
+[04:49:42][INIT] ============================================================
+[04:49:42][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[04:49:42][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[04:49:42][INIT]   cloak_seed = 748956293
+[04:49:42][INIT] ============================================================
+[04:49:44][INIT] Page: https://badoo.com/landing
+[04:49:44][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/0D9A168A1E8CF43940C8CA714E011092
+[04:49:46][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[04:49:47][SILENT] www.googletagmanager.com/gtm.js
+[04:50:06][SILENT] www.googletagmanager.com/gtm.js
+[04:50:45][LIVE] Phase: pre | phone=False photo=False
+[04:52:26][LIVE] Phase: pre | phone=False photo=False
+[04:52:26][SILENT] www.googletagmanager.com/gtm.js
+[04:53:05][LIVE] Phase: pre | phone=False photo=False
+[04:53:23][IDENTITY] device_id=853d19c2... seed=748956293
+[04:53:23][INIT] ============================================================
+[04:53:23][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[04:53:23][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[04:53:23][INIT]   cloak_seed = 748956293
+[04:53:23][INIT] ============================================================
+[04:53:25][INIT] Page: https://badoo.com/landing
+[04:53:25][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/0D9A168A1E8CF43940C8CA714E011092
+[04:53:27][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[04:53:32][SILENT] www.googletagmanager.com/gtm.js
+[04:53:51][SILENT] www.googletagmanager.com/gtm.js
+[04:53:58][LIVE] Phase: pre | phone=False photo=False
+[04:54:12][SILENT] www.googletagmanager.com/gtm.js
+[04:54:50][LIVE] Phase: pre | phone=False photo=False
+[05:02:18][LIVE] Phase: pre | phone=False photo=False
+[05:02:51][IDENTITY] device_id=853d19c2... seed=748956293
+[05:02:51][INIT] ============================================================
+[05:02:51][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[05:02:51][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[05:02:51][INIT]   cloak_seed = 748956293
+[05:02:51][INIT] ============================================================
+[05:02:53][INIT] Page: https://badoo.com/
+[05:02:53][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/4FB0E644988E7E98F8E5FBFD13F17455
+[05:02:55][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[05:03:01][SILENT] www.googletagmanager.com/gtag/destination
+[05:03:02][SILENT] o1118521.ingest.us.sentry.io/api/4507775599378432/envelope/
+[05:03:02][SILENT] www.googletagmanager.com/gtm.js
+[05:05:03][LIVE] Phase: pre | phone=False photo=False
+[05:05:58][IDENTITY] device_id=853d19c2... seed=748956293
+[05:05:58][INIT] ============================================================
+[05:05:58][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[05:05:58][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[05:05:58][INIT]   cloak_seed = 748956293
+[05:05:58][INIT] ============================================================
+[05:06:00][INIT] Page: https://badoo.com/
+[05:06:00][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/DE5C191BFCD0F4758D773EEE20C01288
+[05:06:02][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[05:06:15][SILENT] www.googletagmanager.com/gtag/destination
+[05:06:15][SILENT] o1118521.ingest.us.sentry.io/api/4507775599378432/envelope/
+[05:06:15][SILENT] www.googletagmanager.com/gtm.js
+[05:06:33][LIVE] Phase: pre | phone=False photo=False
+[05:08:21][LIVE] Phase: pre | phone=False photo=False
+[05:09:35][IDENTITY] device_id=853d19c2... seed=748956293
+[05:09:35][INIT] ============================================================
+[05:09:35][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[05:09:35][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[05:09:35][INIT]   cloak_seed = 748956293
+[05:09:35][INIT] ============================================================
+[05:09:37][INIT] Page: https://badoo.com/
+[05:09:37][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/9D7BA0C76223C8C4FDAACF4868A57436
+[05:09:39][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[05:09:48][SILENT] www.googletagmanager.com/gtag/destination
+[05:09:48][SILENT] o1118521.ingest.us.sentry.io/api/4507775599378432/envelope/
+[05:09:49][SILENT] www.googletagmanager.com/gtag/destination
+[05:09:49][SILENT] www.googletagmanager.com/gtag/js
+[05:11:09][LIVE] Phase: pre | phone=False photo=False
+[05:11:44][LIVE] Phase: pre | phone=False photo=False
+[05:11:58][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":29,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":0,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:12:25][LIVE] Phase: pre | phone=False photo=False
+[05:13:18][LIVE] Phase: pre | phone=False photo=False
+[05:13:30][PHASE] Server says is_photo_of_me:True -- cloaking beat their AI!
+[05:13:33][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":52,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":104,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":t
+[05:13:52][LIVE] Phase: pre | phone=False photo=True
+[05:18:13][LIVE] Phase: pre | phone=False photo=True
+[05:18:13][SILENT] www.googletagmanager.com/gtm.js
+[05:18:14][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":1,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":104,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[05:18:41][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":18,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":104,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":t
+[05:18:46][LIVE] Phase: pre | phone=False photo=True
+[05:19:23][LIVE] Phase: pre | phone=False photo=True
+[05:20:31][LIVE] Phase: pre | phone=False photo=True
+[05:21:08][LIVE] Phase: pre | phone=False photo=True
+[05:21:41][LIVE] Phase: pre | phone=False photo=True
+[05:22:13][LIVE] Phase: pre | phone=False photo=True
+[05:22:32][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":47,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[100],"client_source":104,"access_level":10,"verified_information":{"$gpb":"badoo.bma.ClientUserVerifiedGet","display_message":"Verifizierte User erhalten mehr Aufmerksamkeit – alles in nur 2 Minuten!","methods":[{"$gpb":"badoo.bma.UserVer
+[05:22:52][LIVE] Phase: pre | phone=False photo=True
+[05:26:52][LIVE] Phase: pre | phone=False photo=True
+[05:27:16][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":48,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[100],"client_source":102,"access_level":10,"verified_information":{"$gpb":"badoo.bma.ClientUserVerifiedGet","display_message":"Verifizierte User erhalten mehr Aufmerksamkeit – alles in nur 2 Minuten!","methods":[{"$gpb":"badoo.bma.UserVer
+[05:27:21][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":50,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":104,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":t
+[05:27:47][LIVE] Phase: pre | phone=False photo=True
+[05:28:05][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":58,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":104,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":t
+[05:28:13][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":69,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":1,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:28:18][LIVE] Phase: pre | phone=False photo=True
+[05:28:37][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":87,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true,"profile_comple
+[05:28:47][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":94,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:28:52][LIVE] Phase: pre | phone=False photo=True
+[05:29:00][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":122,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[05:29:18][SILENT] www.googletagmanager.com/gtm.js
+[05:29:21][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":9,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":1,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true
+[05:29:24][LIVE] Phase: pre | phone=False photo=True
+[05:29:34][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":19,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:29:39][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":22,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":0,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:29:55][LIVE] Phase: pre | phone=False photo=True
+[05:34:43][LIVE] Phase: pre | phone=False photo=True
+[05:35:48][LIVE] Phase: pre | phone=False photo=True
+[05:36:05][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":61,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":2,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:36:18][LIVE] Phase: pre | phone=False photo=True
+[05:36:21][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":88,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:36:27][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":91,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gpb
+[05:36:55][LIVE] Phase: pre | phone=False photo=True
+[05:36:56][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":97,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gpb":"badoo.bma.User
+[05:36:56][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":96,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":130,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":t
+[05:36:56][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":99,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gpb":"badoo.bma.User
+[05:36:56][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":98,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":130,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":t
+[05:36:57][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":101,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gpb":"badoo.bma.Use
+[05:36:57][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":100,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":130,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true,"profile_com
+[05:36:58][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":103,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gp
+[05:36:58][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":102,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":130,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":
+[05:36:58][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":105,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gpb":"badoo.bma.Use
+[05:36:58][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":104,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":130,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":
+[05:36:59][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":108,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gpb":"badoo.bma.Use
+[05:36:59][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":107,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":130,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true,"profile_com
+[05:36:59][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":110,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gp
+[05:36:59][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":109,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":130,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":
+[05:37:03][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":112,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true,"profile_compl
+[05:37:03][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":115,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gp
+[05:37:04][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":113,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[05:37:25][LIVE] Phase: pre | phone=False photo=True
+[05:37:26][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":131,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true,"profile_compl
+[05:37:26][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":132,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[05:37:52][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":175,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":1,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[05:37:55][LIVE] Phase: pre | phone=False photo=True
+[05:40:10][LIVE] Phase: pre | phone=False photo=True
+[05:40:12][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":179,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true,"profile_compl
+[05:40:22][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":202,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[05:40:41][LIVE] Phase: pre | phone=False photo=True
+[05:41:12][LIVE] Phase: pre | phone=False photo=True
+[05:42:55][LIVE] Phase: pre | phone=False photo=True
+[05:42:55][SILENT] www.googletagmanager.com/gtm.js
+[05:42:56][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":2,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":2,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true
+[05:43:01][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":14,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:43:06][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":26,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:43:08][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":27,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gpb
+[05:43:12][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":30,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:43:57][LIVE] Phase: pre | phone=False photo=True
+[05:44:01][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":42,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:44:24][SILENT] www.googletagmanager.com/gtm.js
+[05:44:25][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":3,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true
+[05:44:28][LIVE] Phase: pre | phone=False photo=True
+[05:45:14][LIVE] Phase: pre | phone=False photo=True
+[05:45:45][LIVE] Phase: pre | phone=False photo=True
+[05:46:06][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":43,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:46:13][SILENT] www.googletagmanager.com/gtm.js
+[05:46:15][LIVE] Phase: pre | phone=False photo=True
+[05:46:22][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":14,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":2,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:46:45][LIVE] Phase: pre | phone=False photo=True
+[05:51:24][LIVE] Phase: pre | phone=False photo=True
+[05:52:51][LIVE] Phase: pre | phone=False photo=True
+[05:53:41][LIVE] Phase: pre | phone=False photo=True
+[05:53:44][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":34,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:53:53][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":38,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:53:56][SILENT] www.googletagmanager.com/gtm.js
+[05:53:56][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":3,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true
+[05:58:31][LIVE] Phase: pre | phone=False photo=True
+[05:58:32][SILENT] www.googletagmanager.com/gtm.js
+[05:58:37][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":16,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[05:58:41][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":24,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[06:04:00][LIVE] Phase: pre | phone=False photo=True
+[06:04:45][LIVE] Phase: pre | phone=False photo=True
+[06:18:27][LIVE] Phase: pre | phone=False photo=True
+[06:19:55][LIVE] Phase: pre | phone=False photo=True
+[06:20:26][LIVE] Phase: pre | phone=False photo=True
+[06:20:57][LIVE] Phase: pre | phone=False photo=True
+[06:21:27][LIVE] Phase: pre | phone=False photo=True
+[06:22:09][LIVE] Phase: pre | phone=False photo=True
+[06:22:49][LIVE] Phase: pre | phone=False photo=True
+[06:23:21][LIVE] Phase: pre | phone=False photo=True
+[06:23:25][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":91,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[690],"client_source":127,"access_level":10,"popularity_level":10},"message_type":404}],"responses_count":1,"is_background":false,"vhost":""}
+[06:23:39][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":113,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[06:24:03][LIVE] Phase: pre | phone=False photo=True
+[06:24:35][LIVE] Phase: pre | phone=False photo=True
+[06:25:06][LIVE] Phase: pre | phone=False photo=True
+[06:25:37][LIVE] Phase: pre | phone=False photo=True
+[06:26:09][LIVE] Phase: pre | phone=False photo=True
+[06:26:41][LIVE] Phase: pre | phone=False photo=True
+[06:26:54][SILENT] www.googletagmanager.com/gtm.js
+[06:26:57][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":23,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[06:27:01][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":28,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":0,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tru
+[06:27:13][LIVE] Phase: pre | phone=False photo=True
+[11:16:48][IDENTITY] device_id=853d19c2... seed=748956293
+[11:16:48][INIT] ============================================================
+[11:16:48][INIT]   SHIELD v4 -- raw CDP (no proxy, no Playwright, no devtools detection)
+[11:16:48][INIT]   device_id  = 853d19c2-697b-4255-aed5-93058faa8456
+[11:16:48][INIT]   cloak_seed = 748956293
+[11:16:48][INIT] ============================================================
+[11:16:50][INIT] Page: https://badoo.com/enter-pin
+[11:16:50][INIT] CDP WebSocket: ws://localhost:9222/devtools/page/9D7BA0C76223C8C4FDAACF4868A57436
+[11:16:52][LIVE] CDP Fetch active (raw WebSocket). Monitoring Badoo traffic...
+[11:17:26][LIVE] Phase: pre | phone=False photo=False
+[11:17:42][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":29,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[690],"client_source":127,"access_level":10,"popularity_level":30},"message_type":404}],"responses_count":1,"is_background":false,"vhost":""}
+[11:17:56][LIVE] Phase: pre | phone=False photo=False
+[11:18:27][LIVE] Phase: pre | phone=False photo=False
+[11:18:36][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":80,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIxOTM5MDcyODYIppJuiwAAAAAgwPWlfabgTxAhDZe6vnG7_Ora6Nde1_Rr5LLOjsL88iQ","projection":[210,370,660,732,670,431,93,541,230,420,410,250,610,580,290,304,550,200,330,331,310,50,490,470,750,460,560,291,100,360,492,1110,494,1424,662,730,1457,650,770,670,600,320,340,480,311,1200,663,1434],"client_source":3,"access_level":10,"city":{"$gp
+[11:18:45][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":89,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzNDQwMDc2MDgIppJuiwAAAAAgFpTBpIoE747cC_SfihtEVk_ZWnyd-tpc6_GauQzkxRo","projection":[210,370,660,732,670,431,93,541,230,420,410,250,610,580,290,304,550,200,330,331,310,50,490,470,750,460,560,291,100,360,492,1110,494,1424,662,730,1457,650,770,670,600,320,340,480,311,1200,663,1434],"client_source":3,"access_level":10,"city":{"$gp
+[11:18:59][LIVE] Phase: pre | phone=False photo=False
+[11:19:13][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":6004,"version":1,"message_id":125,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":1,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":true,"profile_complete_
+[11:19:13][PHASE] is_photo_of_me:True on real photo id=3885669975 -- confirmed server-side
+[11:19:30][LIVE] Phase: pre | phone=False photo=True
+[11:19:47][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":139,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[11:20:00][LIVE] Phase: pre | phone=False photo=True
+[11:20:30][LIVE] Phase: pre | phone=False photo=True
+[11:21:05][LIVE] Phase: pre | phone=False photo=True
+[11:21:35][LIVE] Phase: pre | phone=False photo=True
+[11:22:06][LIVE] Phase: pre | phone=False photo=True
+[11:22:48][LIVE] Phase: pre | phone=False photo=True
+[11:23:20][LIVE] Phase: pre | phone=False photo=True
+[11:25:21][LIVE] Phase: pre | phone=False photo=True
+[11:26:22][LIVE] Phase: pre | phone=False photo=True
+[11:27:15][LIVE] Phase: pre | phone=False photo=True
+[11:28:58][LIVE] Phase: pre | phone=False photo=True
+[11:29:29][LIVE] Phase: pre | phone=False photo=True
+[11:29:45][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":312,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[11:30:03][LIVE] Phase: pre | phone=False photo=True
+[11:30:34][LIVE] Phase: pre | phone=False photo=True
+[11:59:32][LIVE] Phase: pre | phone=False photo=True
+[11:59:37][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":334,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[11:59:40][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":338,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[1111],"client_source":130,"access_level":10,"edit_sections":[{"$gpb":"badoo.bma.UserSection","type":19},{"$gpb":"badoo.bma.UserSection","type":25},{"$gpb":"badoo.bma.UserSection","type":1},{"$gpb":"badoo.bma.UserSection","type":23},{"$gp
+[11:59:50][DUMP] GET_USER: {"$gpb":"badoo.bma.BadooMessage","message_type":404,"version":1,"message_id":345,"object_type":263,"body":[{"$gpb":"badoo.bma.MessageBody","user":{"$gpb":"badoo.bma.User","user_id":"zAhMACjIzMzkyNzk1MjYAII6QEYevJ4EafN4KqnxBppIe1AKMvWdFdQv2j_Gu_ZTR","projection":[40,210,370,60,70,80,93,91,492,220,10,230,420,270,290,200,330,320,20,310,690,50,490,340,470,750,1110,460,480,291,100,311,494,360,71,231,1436],"client_source":8,"access_level":10,"email":"c*****@gmail.com","phone":"","account_confirmed":tr
+[12:00:28][LIVE] Phase: pre | phone=False photo=True

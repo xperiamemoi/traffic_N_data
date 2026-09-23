@@ -1,0 +1,62 @@
+=== CDP PROBE 16:00:43 ===
+URL: https://gew3.moumi.com/fr/encounters
+Title: Les meilleurs site et appli de rencontre en ligne gratuit - Amitiés, discussions, flirts | Moumi
+
+--- MOUMI COOKIES (29) ---
+  device_id                      = 1c75a6eb-a6eb-eb59-590e-0e498a893d8b  (exp:2027-06-27 httpOnly:False secure:False)
+  _gcl_au                        = 1.1.2028466174.1779544490  (exp:2026-08-21 httpOnly:False secure:False)
+  session_cookie_name            = session  (exp:2027-05-23 httpOnly:False secure:True)
+  dnsDisplayed                   = undefined  (exp:2027-05-23 httpOnly:False secure:True)
+  ccpaApplies                    = true  (exp:2027-05-23 httpOnly:False secure:True)
+  signedLspa                     = undefined  (exp:2027-05-23 httpOnly:False secure:True)
+  _sp_su                         = false  (exp:2027-05-23 httpOnly:False secure:True)
+  ccpaConsentAll                 = true  (exp:2027-05-23 httpOnly:False secure:True)
+  ccpaReject                     = false  (exp:2027-05-23 httpOnly:False secure:True)
+  consentStatus                  = consentedAll  (exp:2027-05-23 httpOnly:False secure:True)
+  ccpaUUID                       = 10135abf-afbc-4db9-81f8-dd8945952c5e  (exp:2027-05-23 httpOnly:False secure:True)
+  wpr                            = 1  (exp:session httpOnly:False secure:False)
+  HDR-X-User-id                  = zAhMACjIzNDcxMDI2NTAAIPLK433vpSpYFydHPxpz9PlU2lyrX  (exp:session httpOnly:False secure:True)
+  apiHost                        = gew3.moumi.com  (exp:2026-05-24 httpOnly:False secure:False)
+  uid                            = zAhMACjIzNDcxMDI2NTAAIPLK433vpSpYFydHPxpz9PlU2lyrX  (exp:2027-05-23 httpOnly:False secure:False)
+  has_secure_session             = 1  (exp:session httpOnly:False secure:False)
+  aid                            = 2347102650  (exp:2027-05-23 httpOnly:False secure:False)
+  _gid                           = GA1.2.677177793.1779544716  (exp:2026-05-24 httpOnly:False secure:False)
+  _ga                            = GA1.1.990660140.1779544716  (exp:2027-06-27 httpOnly:False secure:False)
+  _ga_PVE3F6NGV9                 = GS2.1.s1779544716$o1$g0$t1779544720$j56$l0$h0  (exp:2027-05-23 httpOnly:False secure:False)
+  first_web_visit_id             = 42a35f33399674c1136ddff4ccc73c0417edc88e  (exp:2026-06-22 httpOnly:False secure:False)
+  last_referred_web_visit_id     = 42a35f33399674c1136ddff4ccc73c0417edc88e  (exp:2026-06-22 httpOnly:False secure:False)
+  session                        = s5:212:Rk2vMR6KGIRPTcXuPF5W5uQ3FU1Cz1cZtfjDUsQk  (exp:2027-05-23 httpOnly:True secure:True)
+  pnc                            = {"zAhMACjIzNDcxMDI2NTAAIPLK433vpSpYFydHPxpz9PlU2ly  (exp:2026-06-22 httpOnly:False secure:False)
+  euconsent-v2                   = CQkqUwAQkqUwAAGABCENCfFgAP_gAABAAAQ4F5wBgAFABFACYA  (exp:2027-05-23 httpOnly:False secure:True)
+  consentUUID                    = 870e7a15-f2cd-4978-b4f7-8b8edbe180e6_56  (exp:2027-05-23 httpOnly:False secure:True)
+  consentDate                    = 2026-05-23T13:58:41.717Z  (exp:2027-05-23 httpOnly:False secure:True)
+  cookie_settings                = {"functional":true,"analytics":true}  (exp:2027-06-27 httpOnly:False secure:False)
+  _ga_1MSEYK9Z8R                 = GS2.1.s1779544477$o1$g1$t1779544804$j49$l0$h0  (exp:2027-06-27 httpOnly:False secure:False)
+
+--- document.cookie (JS-visible, first 500 chars) ---
+  device_id=1c75a6eb-a6eb-eb59-590e-0e498a893d8b; _gcl_au=1.1.2028466174.1779544490; session_cookie_name=session; dnsDisplayed=undefined; ccpaApplies=true; signedLspa=undefined; _sp_su=false; ccpaConsentAll=true; ccpaReject=false; consentStatus=consentedAll; ccpaUUID=10135abf-afbc-4db9-81f8-dd8945952c5e; wpr=1; HDR-X-User-id=zAhMACjIzNDcxMDI2NTAAIPLK433vpSpYFydHPxpz9PlU2lyrXfQrlU1-awpDvXOy; apiHost=gew3.moumi.com; uid=zAhMACjIzNDcxMDI2NTAAIPLK433vpSpYFydHPxpz9PlU2lyrXfQrlU1-awpDvXOy; has_secure_se
+
+--- localStorage (25 keys) ---
+  Persist::pushNotificationsSettings            = 3
+  hotpanel_session                              = {"updateTs":1779544842241,"uuid":"7be526a6-040e-3f87-2995-b521120136bc"}
+  return_user                                   = 1
+  _sp_user_consent_22304                        = {"ccpa":{"authId":null,"uuid":"10135abf-afbc-4db9-81f8-dd8945952c5e","applies":false},"gdpr":{"authId":null,"uuid":"870e
+  Cache::GPBProfiles                            = {"version":{"expiryTime":1782136724713,"data":3}}
+  Persist::HpTrackingInfos                      = {"uuid":"7be526a6-040e-3f87-2995-b521120136bc","id":36}
+
+--- sessionStorage (1 keys) ---
+  fbssls_107433747809                           = {"authResponse":null,"status":"unknown","expiresAt":1779631121002}
+
+--- NAVIGATOR ---
+  ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+  lang: en-US
+  hw: 8
+  mem: 32
+  platform: Win32
+
+--- PAGE STATE ---
+  href:  https://gew3.moumi.com/fr/encounters
+  title: Les meilleurs site et appli de rencontre en ligne gratuit - Amitiés, discussions, flirts | Moumi
+
+--- PAGE ERROR STATE ---
+  no-visible-errors

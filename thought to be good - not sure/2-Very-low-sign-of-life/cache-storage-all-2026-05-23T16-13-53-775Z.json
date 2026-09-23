@@ -1,0 +1,12 @@
+[
+  {
+    "cacheName": "offline-page-v1",
+    "contentLength": null,
+    "contentType": "text/html; charset=utf-8",
+    "requestUrl": "https://gew3.moumi.com/offline",
+    "responseDate": "Sat, 23 May 2026 16:04:14 GMT",
+    "responseStatus": 200,
+    "responseType": "basic",
+    "vary": "User-Agent"
+  }
+]
