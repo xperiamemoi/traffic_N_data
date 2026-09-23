@@ -1,0 +1,98 @@
+
+https://website-api.karakoselabs.com, text/html: <html>
+
+<head> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" /> <style> html,body {height: 100%; width: 100%; overflow:hidden; position: fixed; margin:0; padding:0} </style> <!-- Setup the Karakose API --> <script crossorigin="anonymous" data-callback="setupEnforcement" onerror="jsLoadError()" src="https://website-api.karakoselabs.com/v2//89C573F3-B0C9-40B8-9EEE-9873289C301E/api.js" async defer ></script> <script type="text/javascript"> var enforcement; function jsLoadError() { //console.log('jsLoadError. '); response = {"error":"Challenge load error."} window.KARAKOSE.onError(JSON.stringify(response)); }
+javascript
+    // Setup the enforcement API
+    function setupEnforcement(karakoseEnforcement) {
+        enforcement = karakoseEnforcement
+        var karakose = karakoseEnforcement.setConfig({
+            selector: '#challenge',
+            // We are using 'inline' as we want the session to be created as soon as the page loads
+            mode: 'inline',
+            // DataExchange capability
+            data: { blob: "6FFHZAb8t3+mFFxo.k9z8D6IxPpIvmlec/Xw44Gbo/wg/lin0GT+JzpX3ckNL2sAJ0NPmElTn9T6LlGUZ7kQlYareDDDhDaXy58yth58v5drkIa+gJ4ro/03c0WlfmrEBq1tnjOP0XxUIewmaCFl67RdaXRdrg+v+w5oOOpYuN1T/PyZTxGP9mYpKj/DgjTyjqCJK5jZ8VgGESjtUuQcGBnzxoSwvS4mGnpmQMgZKKMhVIamgxV/2uOqr9uAfHUsiJY5DIzw43tCJLS7Us2yTQY/DAkcmfwLDBn6DjDi34WpGfAVrPbStKL76xeCRIRhuySoE/2HovRiOBbpWqCTve0uVKVrmdxNhtRd4dnoe15MTwWgPKDPO0AMESe1+osDVOmt3m1yRTLp8exPn17TnDDRq4TwZwWJnjFCLAAObV38WUAn7Cwoa7LAukIamuWaeSCKRVFaUl4C9NrIlm40z9sUKd1/KFzLemmCqxGptPrG18yHdwNwRDpD7BijHMFbl8FqpCWtcrFug79R38L5c6OQGTpNihaKJDhxKTzNd5hNumNe+6GTYHbmpZlZsmQCchOHFs+d8wX+NibU8yCgApIApsVVtbmhLepMerjKMwwjlb8rkhDnBgGJOpQoOHFu5YmtHAsqlABMds8PvgNevYBU9xeEI99bcEL1mHSNcJSmkMKQWgS+sZkMb5WK8xQ2qgQu5cH4Lwgg=" },
+            // Language code
+            language: '',
+            isSDK: true,
+            // styleTheme to Update CAPI Theme
+            
+           // Accessibility setting to ensure that users employing Assistive Technology do not accidentally leave the lightbox before interacting with the challenge
+           accessibilitySettings: {
+                lockFocusToModal: true
+            },
+            // These are the functions that can be called when the enforcement API is triggered
+            // Callback function invoked when a session is classified as not needing a challenge or a challenge has been successfully completed.
+            noSuppress: false,
+            onCompleted: function (response) {
+            //console.log('onCompleted: ' + response);
+                // the token you will need to send to your back-end server for verification.
+                window.KARAKOSE.onCompleted(JSON.stringify(response));
+            },
+            // Callback function invoked when the EC is hidden. For example, this happens after an EC is completed or if the user clicks the close button. Note that the close button only appears when in Lightbox mode.
+            onHide: function () {
+            //console.log('onHide. ');
+                window.KARAKOSE.onHide("onHide");
+            },
+            // Callback function invoked when the Enforcement is ready. The Enforcement cannot be triggered before this event. You may want to disable the UI you are protecting until this event has been triggered.
+            onReady: function () {
+            //console.log('onReady. ');
+                window.KARAKOSE.onReady();
+            },
+            onDataRequest: function (response) {
+            //console.log('onDataRequest: ' + response);
+[20.09.2026 05:44] Moi: window.KARAKOSE.onDataRequest(JSON.stringify(response.requested.sdk));
+},
+// Callback invoked after the Enforcement resets. Typically occurs after a challenge has been successfully answered.
+onReset: function () {
+//console.log('onReset. ');
+window.KARAKOSE.onReset();
+},
+// Callback invoked when the Enforcement is running and Karakose Detect is analyzing the user intent. The onShow method will also be invoked when an Enforcement Challenge is re-displayed (e.g. if the user closes the EC and tries to continue). Note that the close button only appears when in Lightbox mode.
+onShow: function () {
+//console.log('onShow. ');
+window.KARAKOSE.onShow();
+},
+// Callback invoked when the Enforcement Challenge is displayed. The onShown method will only be invoked the first time an Enforcement Challenge is displayed.
+onShown: function () {
+//console.log('onShown. ');
+window.KARAKOSE.onShown();
+},
+// A callback invoked when the an Enforcement Challenge is suppressed (i.e. A session was classified as not requiring a challenge).
+onSuppress: function () {
+//console.log('onSuppress. ');
+window.KARAKOSE.onSuppress();
+},
+// A callback invoked when an error occurs in the loading of the challenge.
+onError: function (response) {
+//console.log('onError: ' + response);
+window.KARAKOSE.onError(JSON.stringify(response)); // An error code representing the error that occurred during the loading of the challenge.
+},
+// A callback invoked when an warning occurs
+onWarning: function (response) {
+window.KARAKOSE.onWarning(JSON.stringify(response));
+},
+// Callback function invoked when a challenge has failed (the user has failed the challenge multiple times and is not allowed to continue the session).
+onFailed: function (response) {
+//console.log('onFailed: ' + response);
+window.KARAKOSE.onFailed(JSON.stringify(response)); // the token you will need to send to your back-end server for verification for user challenge failed.
+},
+onResize: function (response) {
+//console.log('onResize: ' + response);
+window.KARAKOSE.onResize(JSON.stringify(response));
+}
+});
+}
+</script>
+<script type="text/javascript">
+function fingerprintData(dataCollection) {
+//console.log('FP data: ' + dataCollection);
+enforcement.dataResponse(dataCollection)
+}
+function resetEC() {
+//console.log('resetEC. ');
+enforcement.reset();
+}
+</script>
+
+</head> <!-- This is the element into which the challenge will be rendered if necessary --> <body id="challenge" ></body> </html>
